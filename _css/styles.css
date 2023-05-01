@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-body {
-    background-color: black;
-    width: 100%;
+body{
+    background-color: rgb(0, 180, 69);
+    box-sizing: content-box;
 }
 
-header#cabecalho {
+header#cabecalho{
     width: 100%;
     background-color: antiquewhite;
 }
@@ -20,7 +20,7 @@ header#cabecalho ul#menu-superior{
     color: rgb(29, 29, 29);
     list-style: none;
     position: absolute;
-    width: 800px;
+    width: 880px;
     align-items: center;
     text-align: center;
     left: 350px;  
@@ -28,10 +28,122 @@ header#cabecalho ul#menu-superior{
 }
 
 header#cabecalho ul#menu-superior li{
+    background-color: rgb(255, 0, 174);
     display: inline;
+    font-size: 22px;
+    padding: 12px;
 }
 
 header#cabecalho ul#menu-inferior{
+    display: block;
+    position: absolute;
+    background-color: brown;
+    list-style: none;
     color: white;
-    list-style-type: none;
+    width: 1100px;
+    text-align: center;
+    align-items: center;
+    left: 200px;
+    top: 90px; 
+}
+
+header#cabecalho ul#menu-inferior li{
+    background-color: chartreuse;
+    display: inline;
+    font-size: 20px;
+}
+
+header#cabecalho p{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    display: inline;
+    position: absolute;
+    top: 120px;
+    width: 900px;
+    left: 250px;
+    text-align: left;
+    right: 1000px;
+}
+
+section#principal article#article01{
+    background-color: crimson;
+    display: block;
+    position: absolute;
+    top: 200px;
+    width: 710px;
+    height: 550px;
+    margin-left: 105px;
+}
+
+section#principal article#article01 p{
+    position: absolute;
+    background-color: beige;
+    text-align: left;
+    /* padding-left: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 700px;
+    padding-left: 10px;
+    bottom: -16px;
+}
+
+section#principal article#article02{
+    background-color: rgb(220, 20, 143);
+    display: block;
+    position: absolute;
+    top: 200px;
+    width: 310px;
+    height: 300px;
+    right: 454px;
+    margin-left: 105px;
+}
+
+section#principal article#article02 p{
+    position: absolute;
+    background-color: beige;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+    bottom: -16px;
+    padding-left: 10px;
+    bottom: -16px;
+}
+
+section#principal article#article03{
+    background-color: rgb(20, 220, 203);
+    display: block;
+    position: absolute;
+    top: 200px;
+    width: 710px;
+    height: 240px;
+    margin-left: 105px;
+    right: 54px;
+    top: 510px;
+    
+}
+
+section#principal article#article03 p{
+    position: absolute;
+    background-color: beige;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 700px;
+    bottom: -16px;
+    padding-left: 10px;
+    bottom: -16px;
+}
+
+section#principal aside{
+    text-align: justify;
+    background-color: rgb(20, 220, 90);
+    display: block;
+    position: absolute;
+    top: 200px;
+    width: 310px;
+    height: 282px;
+    right: 116px;
+    padding: 8px;
+
 }
