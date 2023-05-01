@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    width: 100%;
+}
+
+header#cabecalho {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+header#cabecalho img#logo-nasa{
+    position: absolute;
+}
+
+header#cabecalho ul#menu-superior{
+    background-color: aqua;
+    display: block;
+    color: rgb(29, 29, 29);
+    list-style: none;
+    position: absolute;
+    width: 800px;
+    align-items: center;
+    text-align: center;
+    left: 350px;  
+    top: 20px;
+}
+
+header#cabecalho ul#menu-superior li{
+    display: inline;
+}
+
+header#cabecalho ul#menu-inferior{
+    color: white;
+    list-style-type: none;
+}
