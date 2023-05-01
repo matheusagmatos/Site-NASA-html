@@ -1,23 +1,22 @@
 @charset "UTF-8";
 
 body{
-    background-color: rgb(0, 180, 69);
+    background-color: rgb(0, 0, 0);
     box-sizing: content-box;
 }
 
 header#cabecalho{
-    width: 100%;
+    width: 500px;
     background-color: antiquewhite;
 }
 
 header#cabecalho img#logo-nasa{
     position: absolute;
+    left: 50px;
 }
 
 header#cabecalho ul#menu-superior{
-    background-color: aqua;
-    display: block;
-    color: rgb(29, 29, 29);
+    display: inline;
     list-style: none;
     position: absolute;
     width: 880px;
@@ -28,19 +27,18 @@ header#cabecalho ul#menu-superior{
 }
 
 header#cabecalho ul#menu-superior li{
-    background-color: rgb(255, 0, 174);
     display: inline;
     font-size: 22px;
     padding: 12px;
+    color: white;
 }
 
 header#cabecalho ul#menu-inferior{
-    display: block;
+    display: inline;
     position: absolute;
-    background-color: brown;
     list-style: none;
     color: white;
-    width: 1100px;
+    width: 1200px;
     text-align: center;
     align-items: center;
     left: 200px;
@@ -48,9 +46,10 @@ header#cabecalho ul#menu-inferior{
 }
 
 header#cabecalho ul#menu-inferior li{
-    background-color: chartreuse;
+    background-color: rgb(82, 82, 82);
     display: inline;
     font-size: 20px;
+    padding: 10px;
 }
 
 header#cabecalho p{
@@ -62,12 +61,13 @@ header#cabecalho p{
     width: 900px;
     left: 250px;
     text-align: left;
-    right: 1000px;
+    right: 600px;
+    padding: 10px;
 }
 
 section#principal article#article01{
-    background-color: crimson;
-    display: block;
+    /* background-image: url(../img/EuropaClipper.webp); */
+    display: inline;
     position: absolute;
     top: 200px;
     width: 710px;
@@ -82,14 +82,14 @@ section#principal article#article01 p{
     /* padding-left: 10px; */
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 700px;
+    width: 660px;
     padding-left: 10px;
     bottom: -16px;
 }
 
 section#principal article#article02{
     background-color: rgb(220, 20, 143);
-    display: block;
+    display: inline;
     position: absolute;
     top: 200px;
     width: 310px;
@@ -112,7 +112,7 @@ section#principal article#article02 p{
 
 section#principal article#article03{
     background-color: rgb(20, 220, 203);
-    display: block;
+    display: inline;
     position: absolute;
     top: 200px;
     width: 650px;
@@ -137,7 +137,7 @@ section#principal article#article03 p{
 section#principal aside{
     text-align: justify;
     background-color: rgb(35, 180, 238);
-    display: block;
+    display: inline;
     position: absolute;
     top: 200px;
     width: 310px;
@@ -146,3 +146,21 @@ section#principal aside{
     padding: 8px;
 
 }
+
+article#article01 img{
+    position: absolute;
+    object-fit: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 710px;
+    height: 520px;
+    padding-left: 10px;
+    bottom: -16px;
+    top: -10px;
+    left: -10px;
+}
+
+/* article#article01 img#imagem01{
+    width: ;
+    object-fit: cover;
+} */
