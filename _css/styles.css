@@ -115,10 +115,9 @@ section#principal article#article03{
     display: block;
     position: absolute;
     top: 200px;
-    width: 710px;
+    width: 650px;
     height: 240px;
-    margin-left: 105px;
-    right: 54px;
+    right: 115px;
     top: 510px;
     
 }
@@ -129,7 +128,7 @@ section#principal article#article03 p{
     text-align: left;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 700px;
+    width: 640px;
     bottom: -16px;
     padding-left: 10px;
     bottom: -16px;
@@ -137,7 +136,7 @@ section#principal article#article03 p{
 
 section#principal aside{
     text-align: justify;
-    background-color: rgb(20, 220, 90);
+    background-color: rgb(35, 180, 238);
     display: block;
     position: absolute;
     top: 200px;
