@@ -5,14 +5,15 @@ body{
     box-sizing: content-box;
 }
 
-header#cabecalho{
-    width: 500px;
+/* header#cabecalho{
+    width: 900px;
     background-color: antiquewhite;
-}
+} */
 
 header#cabecalho img#logo-nasa{
     position: absolute;
-    left: 50px;
+    top: 20px;
+    left: 90px;
 }
 
 header#cabecalho ul#menu-superior{
@@ -23,7 +24,7 @@ header#cabecalho ul#menu-superior{
     align-items: center;
     text-align: center;
     left: 350px;  
-    top: 20px;
+    top: 15px;
 }
 
 header#cabecalho ul#menu-superior li{
@@ -38,17 +39,17 @@ header#cabecalho ul#menu-inferior{
     position: absolute;
     list-style: none;
     color: white;
-    width: 1200px;
+    width: 1290px;
     text-align: center;
     align-items: center;
-    left: 200px;
-    top: 90px; 
+    left: 110px;
+    top: 80px; 
 }
 
 header#cabecalho ul#menu-inferior li{
     background-color: rgb(82, 82, 82);
     display: inline;
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px;
 }
 
@@ -57,21 +58,21 @@ header#cabecalho p{
     color: white;
     display: inline;
     position: absolute;
-    top: 120px;
-    width: 900px;
-    left: 250px;
+    top: 116px;
+    width: 1350px;
+    left: 115px;
     text-align: left;
-    right: 600px;
     padding: 10px;
 }
 
 section#principal article#article01{
-    /* background-image: url(../img/EuropaClipper.webp); */
+    background-color: aquamarine;
     display: inline;
     position: absolute;
-    top: 200px;
-    width: 710px;
-    height: 550px;
+    top: 180px;
+    width: 600px;
+    height: 560px;
+    left: 80px;
     margin-left: 105px;
 }
 
@@ -79,22 +80,20 @@ section#principal article#article01 p{
     position: absolute;
     background-color: beige;
     text-align: left;
-    /* padding-left: 10px; */
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 660px;
-    padding-left: 10px;
+    width: 600px;
     bottom: -16px;
 }
 
 section#principal article#article02{
-    background-color: rgb(220, 20, 143);
+    background-color: aqua;
     display: inline;
     position: absolute;
-    top: 200px;
-    width: 310px;
+    top: 180px;
+    width: 300px;
     height: 300px;
-    right: 454px;
+    right: 505px;
     margin-left: 105px;
 }
 
@@ -106,7 +105,6 @@ section#principal article#article02 p{
     padding-bottom: 10px;
     width: 300px;
     bottom: -16px;
-    padding-left: 10px;
     bottom: -16px;
 }
 
@@ -114,12 +112,10 @@ section#principal article#article03{
     background-color: rgb(20, 220, 203);
     display: inline;
     position: absolute;
-    top: 200px;
-    width: 650px;
-    height: 240px;
-    right: 115px;
-    top: 510px;
-    
+    width: 610px;
+    height: 249px;
+    right: 195px;
+    top: 490px    
 }
 
 section#principal article#article03 p{
@@ -128,9 +124,8 @@ section#principal article#article03 p{
     text-align: left;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 640px;
+    width: 610px;
     bottom: -16px;
-    padding-left: 10px;
     bottom: -16px;
 }
 
@@ -139,12 +134,11 @@ section#principal aside{
     background-color: rgb(35, 180, 238);
     display: inline;
     position: absolute;
-    top: 200px;
-    width: 310px;
-    height: 282px;
-    right: 116px;
-    padding: 8px;
-
+    top: 180px;
+    width: 300px;
+    height: 300px;
+    right: 195px;
+    padding: 0px;
 }
 
 article#article01 img{
@@ -160,7 +154,20 @@ article#article01 img{
     left: -10px;
 }
 
-/* article#article01 img#imagem01{
-    width: ;
+article#article02 img{
+    position: absolute;
     object-fit: cover;
-} */
+    top: 0px;
+    right: 0px;
+    width: 310px;
+    height: 300px;
+}
+
+article#article03 img{
+    position: absolute;
+    object-fit: cover;
+    width: 650px;
+    height: 240px;
+    right: 0px;
+    top: 0px;
+}
