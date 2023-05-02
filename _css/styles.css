@@ -59,10 +59,11 @@ header#cabecalho p{
     display: inline;
     position: absolute;
     top: 116px;
-    width: 1350px;
     left: 115px;
+    right: 115px;
     text-align: left;
-    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 section#principal article#article01{
@@ -70,19 +71,18 @@ section#principal article#article01{
     display: inline;
     position: absolute;
     top: 180px;
-    width: 600px;
+    width: 620px;
     height: 560px;
-    left: 80px;
-    margin-left: 105px;
+    left: 115px;
 }
 
 section#principal article#article01 p{
     position: absolute;
-    background-color: beige;
+    background-color: white;
     text-align: left;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 600px;
+    width: 620px;
     bottom: -16px;
 }
 
@@ -91,20 +91,19 @@ section#principal article#article02{
     display: inline;
     position: absolute;
     top: 180px;
-    width: 300px;
+    width: 368px;
     height: 300px;
-    right: 505px;
-    margin-left: 105px;
+    right: 490px;
+    left: auto;
 }
 
 section#principal article#article02 p{
     position: absolute;
-    background-color: beige;
+    background-color: white;
     text-align: left;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 300px;
-    bottom: -16px;
+    width: 368px;
     bottom: -16px;
 }
 
@@ -112,34 +111,71 @@ section#principal article#article03{
     background-color: rgb(20, 220, 203);
     display: inline;
     position: absolute;
-    width: 610px;
-    height: 249px;
-    right: 195px;
-    top: 490px    
+    /* width: 610px; */
+    height: 252px;
+    /* elimina o width e deixa somente o right e left para colocar o componente no lugar */
+    right: 115px;
+    left: 742px;
+    top: 487.5px;
 }
 
 section#principal article#article03 p{
     position: absolute;
-    background-color: beige;
+    display: inline;
+    background-color: white;
     text-align: left;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 610px;
-    bottom: -16px;
+    width: 743px;
+    right: 900px;
+    left:0px;
     bottom: -16px;
 }
 
-section#principal aside{
+section#principal aside{color: white;
     text-align: justify;
-    background-color: rgb(35, 180, 238);
+    background-color: rgb(0, 157, 219);
     display: inline;
     position: absolute;
     top: 180px;
-    width: 300px;
+    width: 368px;
     height: 300px;
-    right: 195px;
+    right: 115px;
     padding: 0px;
 }
+
+section#principal aside p{
+    padding: 10px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+section#principal aside p#separador-sup{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+}
+
+section#principal aside p#separador-inf{
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 200px;
+}
+
+section#principal aside p#rodape-aside{
+    position: absolute;
+    display: inline;
+    width: 348px;
+    top: 264px;
+    padding-bottom: 8px;
+}
+
+/* article p.titulo-artigo{
+    width: 50px;
+    display: block;
+    position: absolute;
+    background-color: brown;
+} */
 
 article#article01 img{
     position: absolute;
